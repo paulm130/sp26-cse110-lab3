@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea for the meeting minutes website
 title: ''
 labels: meeting minutes
-assignees: ''
+assignees: paulm130
 
 ---
 
