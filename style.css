@@ -1,3 +1,29 @@
 h1, h2, h3 {
-    font-family: "Lucida Handwriting";
+    font-family: "Lucida Handwriting"; /*this font is fun cursive*/
+    text-align: center;
+    display: block;
+}
+
+ol, ul{
+    border-style: solid; /*putting a fun blue border around the lists*/
+    border-color: blue;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: rgba(255,0,0,0.7);
+    display: inline-block;
+    padding-right: 25px;
+    text-align: center;
+}
+
+/*.plans is flexbox container for plans and HTML5 image
+.people is flexbox container for list of people*/
+.plans, .people{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#joke_form{
+    text-align: center;
 }

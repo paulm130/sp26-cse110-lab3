@@ -17,12 +17,14 @@
         <section>
             <h2>Brainstorming</h2>
             <h3>April 8, 2026</h3>
-            <ul>
-                <li><strong>Paul</strong></li>
-                <li>Billy</li>
-                <li>Bob</li>
-                <li>Joe</li>
-            </ul>
+            <div class="people" id="people_list">
+                <ul>
+                    <li><strong>Paul</strong></li>
+                    <li>Billy</li>
+                    <li>Bob</li>
+                    <li>Joe</li>
+                </ul>
+            </div>
         </section>
 
         <div class="meeting content covered">
@@ -35,22 +37,29 @@
             <video src="whiteboard.mp4" controls loading="lazy"></video>
             <audio src="whiteboard.mp4" controls loading="lazy"></audio> <br>
             <hr>
-            <span class="exciting"><i>I think this timer might actually be good! </i></span> <br>
-            <audio src="website.mp3" controls loading="lazy"></audio> <br>
-            These are our plans for next steps ordered by what should be completed <em>first</em>
+            <div class="plans" id="plans_text">
+                <span class="plans"><i>I think this timer might actually be good! </i></span> <br>
+                <audio class="plans" src="website.mp3" controls loading="lazy"></audio> <br>
+                These are our plans for next steps ordered by what should be completed <em>first</em>
+            </div>
         </div>
 
-        <ol>
+        <div class="plans" id="list">
+            <ol class="plans">
             <li>assign roles to different team members</li>
             <li>come up with a better name than "Pomodoro Timer"</li>
             <li>create UI mockup sketches</li>
             <li>start coding the HTML</li>
         </ol>
-        <img src="HTML5_Logo_64.png" alt="HTML5">
+        </div>
+
+        <div class="plans" id="HTML5">
+            <img class="plans" src="HTML5_Logo_64.png" alt="HTML5">
+        </div> 
     </main>
 
     <footer>
-        <form> 
+        <form id="joke_form"> 
             <fieldset>
                 <label>submit new joke:</label>
                 <input type="checkbox"> <br>
