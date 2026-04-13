@@ -24,6 +24,10 @@ ol, ul{
     align-items: center;
 }
 
+#first{
+    color: color(display-p3 80% 40% 10%);
+}
+
 #joke_form{
     text-align: center;
 }
