@@ -23,9 +23,18 @@ details:hover{
     color: purple;
 }
 
+#whiteboard_video {
+    display: block;
+    height: 9 cm;
+    max-height: 25%;
+    width: 16 cm;
+    max-width: 25%;
+}
+
 /*.plans is flexbox container for plans and HTML5 image
-.people is flexbox container for list of people*/
-.plans, .people{ 
+.people is flexbox container for list of people
+.media is the flexbox container for the whiteboard video and audio*/
+.plans, .people, .media{ 
     display: flex;
     flex-direction: column;
     text-align: center;
