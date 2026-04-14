@@ -95,7 +95,7 @@ span i{
 }
 
 #first{
-    color: color(display-p3 0.8 0.4 0.1);
+    color: color(display-p3 80% 40% 10%);
 }
 
 #joke_form{
@@ -109,9 +109,9 @@ video + audio{
 @media (max-width: 1250px){
     #whiteboard_video{
         display: block;
-        height: 4.5 cm;
+        height: 4.5cm;
         max-height: 40%;
-        width: 8 cm;
+        width: 8cm;
         max-width: 40%;
     }
 }
