@@ -35,6 +35,9 @@ div:has(> *){
 
 details{
     font-size: 20px;
+    & summary{
+        text-decoration: underline;
+    }
 }
 
 a:active{
@@ -52,9 +55,9 @@ details:hover{
 
 #whiteboard_video{
     display: block;
-    height: 9 cm;
+    height: 9cm;
     max-height: 25%;
-    width: 16 cm;
+    width: 16cm;
     max-width: 25%;
 }
 
@@ -92,7 +95,7 @@ span i{
 }
 
 #first{
-    color: color(display-p3 80% 40% 10%);
+    color: color(display-p3 0.8 0.4 0.1);
 }
 
 #joke_form{
@@ -104,7 +107,7 @@ video + audio{
 }
 
 @media (max-width: 1250px){
-    & #whiteboard_video{
+    #whiteboard_video{
         display: block;
         height: 4.5 cm;
         max-height: 40%;
